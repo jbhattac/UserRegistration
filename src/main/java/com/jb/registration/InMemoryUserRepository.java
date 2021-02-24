@@ -13,7 +13,7 @@ public class InMemoryUserRepository implements UserRepository {
 	@Override
 	public UserDO createUser(UserDO user) throws UserAlreadyExistsException {
 		if (null != map.putIfAbsent(user.getId(), user))
-			throw new UserAlreadyExistsException();
+			throw new UserAlreadyExistsException("User already exist "+user.getUserName());
 		return user;
 	}
 
