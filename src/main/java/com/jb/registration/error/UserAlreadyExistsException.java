@@ -1,4 +1,4 @@
-package com.jb.registration;
+package com.jb.registration.error;
 
 public class UserAlreadyExistsException extends RuntimeException {
 	private static final long serialVersionUID = 1L;

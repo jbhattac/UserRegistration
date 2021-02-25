@@ -1,4 +1,4 @@
-package com.jb.registration;
+package com.jb.registration.error;
 
 import org.springframework.core.Ordered;
 import org.springframework.core.annotation.Order;

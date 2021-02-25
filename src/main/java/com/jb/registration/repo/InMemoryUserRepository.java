@@ -1,9 +1,12 @@
-package com.jb.registration;
+package com.jb.registration.repo;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
 import org.springframework.stereotype.Repository;
+
+import com.jb.registration.error.UserAlreadyExistsException;
+import com.jb.registration.model.UserDO;
 
 @Repository
 public class InMemoryUserRepository implements UserRepository {

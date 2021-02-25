@@ -1,4 +1,4 @@
-package com.jb.registration;
+package com.jb.registration.controller;
 
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;

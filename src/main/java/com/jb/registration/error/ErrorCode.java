@@ -1,4 +1,4 @@
-package com.jb.registration;
+package com.jb.registration.error;
 
 public enum ErrorCode {
 

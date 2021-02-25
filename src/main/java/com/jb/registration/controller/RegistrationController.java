@@ -1,4 +1,4 @@
-package com.jb.registration;
+package com.jb.registration.controller;
 
 import javax.validation.Valid;
 
@@ -9,6 +9,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
+
+import com.jb.registration.mapper.UserMapper;
+import com.jb.registration.model.UserDO;
+import com.jb.registration.repo.UserRepository;
 
 @RestController()
 @RequestMapping("/userservice/register")

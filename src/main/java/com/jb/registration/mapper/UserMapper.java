@@ -1,4 +1,8 @@
-package com.jb.registration;
+package com.jb.registration.mapper;
+
+import com.jb.registration.controller.RegistrationRequest;
+import com.jb.registration.controller.RegistrationResponse;
+import com.jb.registration.model.UserDO;
 
 public class UserMapper {
 

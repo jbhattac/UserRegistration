@@ -1,4 +1,4 @@
-package com.jb.registration;
+package com.jb.registration.repo;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
@@ -7,6 +7,10 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
 import org.mockito.MockitoAnnotations;
+
+import com.jb.registration.error.UserAlreadyExistsException;
+import com.jb.registration.model.UserDO;
+import com.jb.registration.repo.InMemoryUserRepository;
 
 public class InMemoryRepositoryTest {
 	
